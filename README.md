@@ -19,7 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Deployment
 
 1. Clone project repo to the server
-2. ```bash cd ``` into project dir
+2. ```cd``` into project dir
 3. (Optional) configure ssh/server bind port in ```docker-compose.yml``` 
 4. Run
     ```bash
