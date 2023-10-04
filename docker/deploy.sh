@@ -1,4 +1,4 @@
-#!/usr/bin sh
+#!/usr/bin/sh
 
 if [ $# -eq 0 ]
   then
@@ -15,4 +15,4 @@ fi
 
 cd ..
 sudo docker build -t "$CONTAINER_NAME_image" .
-sudo docker run -d --name $CONTAINER_NAME $SSH_BIND 
+sudo docker run -d --name $CONTAINER_NAME $SSH_BIND
