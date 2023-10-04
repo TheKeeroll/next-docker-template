@@ -13,7 +13,7 @@ RUN apk update && apk add nginx openrc openssh \
 EXPOSE 22
 EXPOSE 3000
 
-RUN echo "root:root" | chpasswd
+#RUN echo "root:root" | chpasswd
 
 RUN mkdir -p /run/openrc
 RUN touch /run/openrc/softlevel
