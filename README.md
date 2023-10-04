@@ -16,7 +16,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Deployment
+## Deployment Linux
 
 1. Clone project repo to the server
 2. ```cd``` into project dir
